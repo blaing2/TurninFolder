@@ -1,0 +1,25 @@
+Base feature score: 89/100
+Innovation bonus: +7
+Bug penalty: -2
+
+Overall grade: 94/100
+
+Most features successfully implemented:
+- Third person control
+- Ramp walking and falling
+- Level walls
+- Projectiles fire when left mouse is clicked
+- Targets destroyed when hit
+- Final pickup item appears and works correctly
+
+Innovations:
+- Character projectiles use raycasting to inform enemies if they're in danger of being hit.
+	Enemies move out of the path of projectiles as best they can, requiring a barrage
+	in order to successfully clear them out.
+- HUD showing number of enemies remaining.
+
+	
+Bug:
+- The end camera is enabled at the start of the game, overriding the player camera and
+	making the game unplayable in the editor. The build is okay. Remember to always
+	make sure that only one camera is active at a time.
