@@ -1,8 +1,8 @@
 Base feature score: 89/100
-Innovation bonus: +7
+Innovation bonus: +8
 Bug penalty: -2
 
-Overall grade: 94/100
+Overall grade: 95/100
 
 Most features successfully implemented:
 - Third person control
